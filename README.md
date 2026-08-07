@@ -1,6 +1,6 @@
-# yt-downloader 🎵
+# retrotube-dl 📼
 
-Descargador de YouTube por consola, pensado para bajar canciones sueltas o playlists enteras como **MP3**, o videos convertidos a un formato compatible con celulares viejos (como el BLU Diva Flex).
+Descargador de YouTube por consola, pensado para bajar canciones o videos sueltos, o playlists enteras. Soporta dos modos: **audio (MP3)** o **video**, este último convertido a un formato compatible con celulares viejos (como el BLU Diva Flex) — de ahí el nombre.
 
 ## Características
 
@@ -39,7 +39,7 @@ pip install yt-dlp
 ## Uso
 
 ```bash
-python mp3dl.py
+python retrotube_dl.py
 ```
 
 Al iniciar vas a ver un menú simple:
@@ -67,7 +67,7 @@ Podés elegir entre tres formatos de salida según el celular donde vayas a repr
 Por defecto, dentro de la carpeta del script se crean:
 
 ```
-mp3dl/
+retrotube-dl/
 ├── Canciones individuales/
 ├── Playlists/
 │   └── <nombre del álbum>/
