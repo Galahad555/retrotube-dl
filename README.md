@@ -1,4 +1,4 @@
-# mp3dl 🎵
+# yt-downloader 🎵
 
 Descargador de YouTube por consola, pensado para bajar canciones sueltas o playlists enteras como **MP3**, o videos convertidos a un formato compatible con celulares viejos (como el BLU Diva Flex).
 
