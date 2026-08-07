@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-"""
-mp3dl.py — Descargador de YouTube a MP3 y Video
-Uso: python mp3dl.py
-"""
-
 import os
 import sys
 import re
@@ -582,7 +576,7 @@ def menu_settings():
 
 def mostrar_estado():
     modo = CONFIG["modo"]
-    titulo("✦ mp3dl — Descargador de YouTube")
+    titulo("✦ Retrotube dl — Descargador de YouTube")
 
     if modo == "audio":
         meta_str = c(GREEN, "on") if CONFIG["metadatos"] else c(RED, "off")
